@@ -7,7 +7,7 @@ TSM-003 Actualizar personaje
 TSM-004 Delete personaje
 ```
 
-#MERGE
+# MERGE ejecutar las pruebas desde la rama main
 En la rama main (se realizo el merge todas las ramas)
 ```sh
 main
