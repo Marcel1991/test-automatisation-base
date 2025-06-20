@@ -1,13 +1,17 @@
 ### Para ejecutar y probar los escenarios Karate mprios
 # Se crearon 4 ramas (HU)
+```sh
 TSM-001 Obtener personaje
 TSM-002 Crear personaje
 TSM-003 Actualizar personaje
 TSM-004 Delete personaje
+```
 
 #MERGE
 En la rama main (se realizo el merge todas las ramas)
-
+```sh
+main
+```
 # Para realizar cada escenario de prueba colocar el archivo feature de prueba
 En la linea 8 archivo KarateBasicTest.java
 
