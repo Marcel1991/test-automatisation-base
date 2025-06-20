@@ -1,4 +1,4 @@
-### Para ejecutar y porbar los escenarios
+### Para ejecutar y porbar los escenarios MPRIOS
 # Se crearon 4 ramas (HU)
 TSM-001 Obtener personaje
 TSM-002 Crear personaje
