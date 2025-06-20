@@ -1,3 +1,22 @@
+### Para ejecutar y porbar los escenarios
+# Se crearon 4 ramas (HU)
+TSM-001 Obtener personaje
+TSM-002 Crear personaje
+TSM-003 Actualizar personaje
+TSM-004 Delete personaje
+
+mian (merge de todas las ramas)
+
+# Para realizar cada escenario de prueba colocar el archivo frature de prueba
+ Karate testBasic() {
+        return Karate.run("classpath:karate-test.feature");
+
+Para cada caso rama (HU): 
+  TSM-001 --> karate-test
+  TSM-002 --> karate-test002
+  TSM-003 --> karate-test003
+  TSM-004 --> karate-test003
+
 # Proyecto base de pruebas automatizadas con Karate, Java y Gradle
 
 Este proyecto es una base para implementar pruebas automatizadas de la colección de peticiones entregadas (por ejemplo, una colección Postman). Todas las pruebas deben ser escritas en el archivo `src/test/resources/karate-test.feature` siguiendo la sintaxis de Karate DSL.
