@@ -21,10 +21,10 @@ Karate testBasic() {
 ```
 Para cada rama (HU) --> caso: 
 ```sh
-  TSM-001 --> karate-test
-  TSM-002 --> karate-test002
-  TSM-003 --> karate-test003
-  TSM-004 --> karate-test003
+  TSM-001 --> karate-test.feature
+  TSM-002 --> karate-test002.feature
+  TSM-003 --> karate-test003.feature
+  TSM-004 --> karate-test004.feature
 ```
 
 # Proyecto base de pruebas automatizadas con Karate, Java y Gradle
