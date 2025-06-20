@@ -8,17 +8,19 @@ TSM-004 Delete personaje
 #MERGE
 En la rama main (se realizo el merge todas las ramas)
 
-# Para realizar cada escenario de prueba colocar el archivo featture de prueba
+# Para realizar cada escenario de prueba colocar el archivo feature de prueba
 En la linea 8 archivo KarateBasicTest.java
 
 Karate testBasic() {
         return Karate.run("classpath:karate-test.feature");
 
 Para cada rama (HU) --> caso: 
+```sh
   TSM-001 --> karate-test
   TSM-002 --> karate-test002
   TSM-003 --> karate-test003
   TSM-004 --> karate-test003
+```
 
 # Proyecto base de pruebas automatizadas con Karate, Java y Gradle
 
