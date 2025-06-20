@@ -7,7 +7,7 @@ TSM-003 Actualizar personaje
 TSM-004 Delete personaje
 ```
 
-# MERGE ejecutar las pruebas desde la rama main
+# Clonar y ejecutar las pruebas desde la rama main
 En la rama main (se realizo el merge todas las ramas)
 ```sh
 main
@@ -15,9 +15,10 @@ main
 # Para realizar cada escenario de prueba colocar el archivo feature de prueba
 En la linea 8 archivo KarateBasicTest.java
 
+```sh
 Karate testBasic() {
         return Karate.run("classpath:karate-test.feature");
-
+```
 Para cada rama (HU) --> caso: 
 ```sh
   TSM-001 --> karate-test
